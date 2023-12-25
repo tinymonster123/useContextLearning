@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from 'react'
 import '../css/secondChallenging.css'
+import { Link } from 'react-router-dom'
 
 const CurrentContext = createContext(null)
 
@@ -17,6 +18,7 @@ function CurrentUser() {
                 <div className='boxInSecond'>
                     <Form />
                 </div>
+                <Link to='/MultipleUsers'>Next Challenging</Link>
             </CurrentContext.Provider>
         </>
     )
