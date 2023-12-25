@@ -1,4 +1,5 @@
-import MyApp from '../../pages/firstChallenging'
+import MyApp from '../pages/firstChallenging'
+import CurrentUser from '../pages/secondChallenging'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import './App.css'
 
@@ -7,6 +8,7 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<MyApp />} />
+                <Route path="/CurrentUser" element={<CurrentUser />} />
             </Routes>
         </BrowserRouter>
     )
