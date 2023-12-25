@@ -1,0 +1,6 @@
+.boxInSecond{
+    min-width: 300px;
+    max-width: 600px;
+    border: 1px black solid;
+    height: 200px;
+}
