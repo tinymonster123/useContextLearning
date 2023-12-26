@@ -18,7 +18,7 @@ function CurrentUser() {
                 <div className='boxInSecond'>
                     <Form />
                 </div>
-                <Link to='/MultipleUsers'>Next Challenging</Link>
+                <Link to='/MutipleUsers'>Next Challenging</Link>
             </CurrentContext.Provider>
         </>
     )
