@@ -1,0 +1,24 @@
+.BigBox-light {
+    border: 1px black solid;
+    height: 300px;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.BigBox-dark {
+    border: 1px whitesmoke solid;
+    height: 300px;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: rgb(23, 32, 42);
+}
+
+.word-dark{
+    color: white;
+}
+
+.LogginButton-dark{
+    color: white;
+    background-color: black;
+    border: 1px white solid;
+}
